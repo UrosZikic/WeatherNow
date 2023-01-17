@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: poppins, arial, sans-serif;
+}
+body {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("earth.jpg");
+
+  background-size: 100% 100%;
+}
+
+
+input {
+  font-size: 2rem;
+  vertical-align: middle;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+input::placeholder {
+  color: white;
+}
+ion-icon {
+  font-size: 2.5rem;
+  vertical-align: middle;
+  margin-left: -4.5rem;
+  color: white;
+}
+strong {
+  font-size: 2.5rem;
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+p {
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-weight: 700;
+}
+#container {
+  margin-top: 10rem;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+.form-browser {
+  text-align: center;
+  margin-top: 2rem;
+}
+.browse {
+  padding: 1rem;
+}
